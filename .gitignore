@@ -1,0 +1,19 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+venv/
+env/
+
+# Ignore model and large files not needed for GitHub
+*.pkl
+*.h5
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
